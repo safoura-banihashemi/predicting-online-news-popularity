@@ -2,7 +2,7 @@
 
 This project focuses on predicting Online News Popularity using 4 binary classification algorithms. The task is implemented in PySpark to handle the dataset at scale.
 
-Since news articles are published sequentially, a standard random train/test split would leak future information into training. Instead, we use **rolling window**, which respects the temporal order of the data.
+Since news articles are published sequentially, a standard random train/test split would leak future information during training. Instead, we use **rolling window**, which respects the temporal order of the data.
 
 ---
 
