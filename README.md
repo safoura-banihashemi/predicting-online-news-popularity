@@ -28,6 +28,8 @@ The raw target (`shares`) is **heavily right-skewed**: most articles receive a m
 
 This produces a near-balanced split: **49.3% Popular / 50.7% Unpopular**.
 
+<img width="989" height="490" alt="download" src="https://github.com/user-attachments/assets/7ff85a72-feb2-43b4-92a1-3ad2c1b41b4b" />
+
 ---
 
 ## Methodology
