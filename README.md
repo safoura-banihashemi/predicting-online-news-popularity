@@ -92,6 +92,7 @@ predicting-online-news-popularity/
 │
 ├── News_popularity_prediction.ipynb   # Main notebook
 ├── paper.pdf # This project is inspired by this paper
+├── requirements.txt # python Dependencies
 └── README.md
 ```
 
@@ -102,6 +103,7 @@ predicting-online-news-popularity/
 | Package | Version |
 |---|---|
 | Python | 3.14.2 |
+| Java | 17 |
 | Apache Spark (PySpark) | 4.1.2 |
 | NumPy | 2.3.5 |
 | pandas | 2.3.3 |
@@ -125,18 +127,20 @@ pip install pyspark==4.1.2
 
 ## How to Run
 
-1. **Clone the repository**
+1. **Prerequisites**
+- Python 3.14
+- Java 17
+
+2. **Clone the repository**
    ```bash
-   git clone https://github.com/<your-username>/predicting-online-news-popularity.git
+   git clone [https://github.com/<your-username>/predicting-online-news-popularity.git]
    cd predicting-online-news-popularity
    ```
-
-2. **Open the notebook**
+    
+3. **Install dependencies**
    ```bash
-   jupyter notebook News_popularity_prediction.ipynb
+   pip install -r requirements.txt
    ```
-
-3. **Run all cells** in order. 
 
 ---
 
