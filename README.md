@@ -91,8 +91,8 @@ predicting-online-news-popularity/
 │   └── OnlineNewsPopularity.csv       
 │
 ├── News_popularity_prediction.ipynb   # Main notebook
-├── paper.pdf # This project is inspired by this paper
-├── requirements.txt # python Dependencies
+├── paper.pdf                          # This project is inspired by this paper
+├── requirements.txt                   # python Dependencies
 └── README.md
 ```
 
